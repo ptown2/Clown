@@ -1,0 +1,42 @@
+body {
+	background-color: #000000;
+}
+
+#clown {
+	background: transparent url("images/clown.png") no-repeat 0 0;
+
+	width: 64px;
+	height: 64px;
+
+	margin-top: -32px;
+	margin-left: -32px;
+
+	position: fixed;
+
+	top: 50%;
+	left: 50%;
+	z-index: 10000;
+}
+
+.star {
+	background: #FFFFFF;
+	color: #FFFFFF;
+
+	position: absolute;
+	z-index: -10000;
+}
+
+.panel {
+	width: 100%;
+	height: 100%;
+
+	position: fixed;
+	z-index: -10000;
+}
+
+.notice {
+	color: #FFFFFF;
+
+	width: 50%;
+	padding: 6px;
+}
